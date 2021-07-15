@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header.headertop nav {
+    background-color: #0c0c0c6e;
+}
+
+    header.headertop nav ul li a {
+        color: #fff;
+        font-size: 15px;
+    }
+
+    header.headertop nav a.navbar-brand {
+        color: #fff;
+    }
+
+
+ul.right-menus {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+    ul.right-menus li {
+        display: inline-block;
+    }
+
+        ul.right-menus li a.btn.btn-signup {
+            background-color: #03a9f4;
+            color: #fff;
+            border-radius: 0px;
+        }
+
+    ul.right-menus li {
+        padding: 0 5px;
+    }
+
+
+section.banner-top {
+    background-image: url('../images/banner-top.png');
+    position: relative;
+    padding: 100px 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header.headertop {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+
+    header.headertop.newClass {
+        background-color: #0e0e0e;
+        z-index: 99999;
+    }
+
+    header.headertop nav a:hover {
+        color: #03a9f4;
+    }
+
+    header.headertop nav .dropdown-menu a {
+        color: #0d0d0d;
+        padding: 5px 10px;
+    }
+
+    header.headertop nav .dropdown-menu {
+        top: 44px;
+        border-radius: 0px;
+    }
+
+section.banner-top .banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 999;
+    position: relative;
+}
+
+    section.banner-top .banner-content h2 {
+        color: #fff;
+        font-size: 16px;
+    }
+
+    section.banner-top .banner-content h1 {
+        font-size: 36px;
+        color: #fff;
+        text-align: center;
+    }
+
+section.features-section {
+    background-color: #f5f8fd;
+    padding: 40px 0;
+}
+
+    section.features-section ul.listing-feature {
+        list-style-type: none;
+        margin-bottom: 0px;
+    }
+
+        section.features-section ul.listing-feature li {
+            display: inline-block;
+        }
+
+            section.features-section ul.listing-feature li .media-body {
+                padding-left: 15px;
+                position: relative;
+            }
+
+                section.features-section ul.listing-feature li .media-body:before {
+                    width: 1px;
+                    height: 45px;
+                    content: '';
+                    position: absolute;
+                    background-color: #eaeaea;
+                    left: 0px;
+                }
+
+                section.features-section ul.listing-feature li .media-body p {
+                    margin: 0;
+                    font-size: 15px;
+                }
+/*Intro */
+
+section.section-intro {
+    padding: 80px 15px;
+}
+
+.content-descriptions h4 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.content-descriptions {
+    margin-bottom: 40px;
+}
+
+
+    .content-descriptions p {
+        font-size: 16px;
+        color: #757575;
+    }
+
+img.img-intro {
+    width: 100%;
+}
+
+section.pekohe-need {
+    background-color: #f5f8fd;
+    padding: 80px 0;
+}
+
+.content-descriptions ul {
+    padding: 0 0 0 22px;
+}
+
+    .content-descriptions ul li {
+        color: #757575;
+    }
+
+.content-descriptions p strong {
+    color: #000;
+}
+
+section.process-home {
+    padding: 80px 15px;
+}
+
+ul.process-listing {
+    list-style-type: none;
+    padding: 0px;
+}
+
+    ul.process-listing span {
+        font-weight: 600;
+        color: #000;
+    }
+
+    ul.process-listing li {
+        font-size: 16px;
+    }
+
+    ul.process-listing li {
+        margin-bottom: 12px;
+    }
+
+.tble-info img {
+    width: 100%;
+}
+
+.content-descriptions.tble-info {
+    max-width: 100%;
+}
+
+section.sucess-bar {
+    padding: 35px 0;
+    background-color: #00b4ff;
+}
+
+    section.sucess-bar .content-descriptions.sucess-infobar {
+        margin: 0;
+    }
+
+        section.sucess-bar .content-descriptions.sucess-infobar h5 {
+            color: #fff;
+            font-weight: 600;
+        }
+
+        section.sucess-bar .content-descriptions.sucess-infobar p {
+            max-width: 410px;
+            color: #fff;
+            line-height: 20px;
+            font-size: 16px;
+            margin-bottom: 0px;
+        }
+
+    section.sucess-bar .cta-btn {
+        padding-top: 20px;
+    }
+
+        section.sucess-bar .cta-btn a {
+            border: 1px solid #fff;
+            padding: 10px 10px;
+            color: #fff;
+            font-size: 16px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+            section.sucess-bar .cta-btn a:hover {
+                background-color: #fff;
+                color: #212529;
+                text-decoration: none;
+            }
+
+
+footer {
+    padding: 100px 10px 60px;
+    background-image: url('../images/footer_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    footer .footer-descriptions {
+        text-align: center;
+    }
+
+    footer .form-subscribe {
+        text-align: center;
+        margin: 50px 0 0 0;
+    }
+
+        footer .form-subscribe form.form-inline {
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+            footer .form-subscribe form.form-inline input {
+                background-color: #fff;
+                padding: 11px 9px;
+                height: 55px;
+            }
+
+            footer .form-subscribe form.form-inline button {
+                padding: 9px 10px;
+                border-radius: 0px;
+            }
+
+            footer .form-subscribe form.form-inline .form-group {
+                width: 100%;
+            }
+
+            footer .form-subscribe form.form-inline button {
+                padding: 11px 17px;
+                position: absolute;
+                right: 3px;
+                background-color: #00b4ff;
+                border-color: #00b4ff;
+            }
+
+        footer .form-subscribe p {
+            font-size: 14px;
+            color: #fff;
+        }
+
+
+    footer .footer-descriptions h3 {
+        font-size: 60px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    footer .footer-descriptions p {
+        max-width: 690px;
+        font-size: 19px;
+        font-weight: 600;
+        margin: 50px auto 50px;
+        color: #fff;
+    }
+
+/* Table Result css */
+
+.content-descriptions.tble-info table.table-results thead th:not(:first-child) {
+    background-color: #08aeff;
+    color: #fff;
+}
+
+.content-descriptions.tble-info table.table-results thead th:first-child {
+    background-color: #efefef;
+}
+
+
+.content-descriptions.tble-info table.table-results tbody tr th {
+    background-color: #00b4ff;
+    color: #fff;
+}
+
+.content-descriptions.tble-info table.table-results tbody tr:nth-child(even) td {
+    background-color: #f3f3f3;
+}
+
+.content-descriptions.tble-info table.table-results tbody tr td {
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.content-descriptions.tble-info table.table-results th {
+    font-size: 14px;
+    border: 1px solid #fff;
+}
+
+
+
+/* Media Queries */
+@media (min-width:1200px) {
+    section.banner-top .banner-content {
+        padding: 150px 0 80px;
+    }
+}
+
+@media (max-width:1199px) {
+    section.banner-top .banner-content {
+        padding-top: 80px;
+    }
+}
+
+
+@media (max-width:991px) {
+    section.banner-top .banner-content h1 {
+        font-size: 31px;
+    }
+
+    section.features-section ul.listing-feature li {
+        display: block;
+        width: 50%;
+        float: left;
+        margin-bottom: 40px;
+    }
+
+        section.features-section ul.listing-feature li:nth-child(3), section.features-section ul.listing-feature li:nth-child(4) {
+            margin-bottom: 20px;
+        }
+
+    section.banner-top {
+        background-size: cover;
+        z-index: 99;
+    }
+
+    header.headertop nav button.navbar-toggler:focus {
+        outline: none;
+    }
+
+    header.headertop nav {
+        padding: 0px;
+        z-index: 9999;
+    }
+
+        header.headertop nav div#navbarSupportedContent {
+            padding: 20px 20px;
+            background-color: #0e0e0e;
+        }
+
+    header.headertop nav {
+        background: #0e0e0e;
+        padding: 12px 0;
+    }
+
+    a.navbar-brand {
+        padding: 0 0 0 20px;
+    }
+
+    header.headertop .container {
+        max-width: 100%;
+        padding: 0px;
+    }
+
+    header.headertop nav button.navbar-toggler i {
+        color: #fff;
+    }
+
+    header.headertop nav button.navbar-toggler:focus {
+        outline: none;
+    }
+
+    ul.right-menus li {
+        display: block;
+        margin: 0 0 10px 0;
+        padding: 0;
+    }
+
+    header.headertop nav div#navbarSupportedContent {
+        border-top: 1px solid #3a3a3a;
+    }
+
+    header.headertop nav a.navbar-brand {
+        padding-bottom: 8px;
+    }
+
+    header.headertop nav button.navbar-toggler {
+        position: absolute;
+        top: 10px;
+        right: 8px;
+    }
+}
+
+
+@media (max-width:767px) {
+
+
+    footer .form-subscribe form.form-inline {
+        max-width: 100%;
+    }
+
+        footer .form-subscribe form.form-inline button {
+            position: relative;
+            margin: 4px auto 0;
+            height: 40px;
+            padding: 0 20px;
+            border-color: #ffffff;
+        }
+
+        footer .form-subscribe form.form-inline input {
+            height: 40px;
+            font-size: 12px;
+        }
+}
+
+
+
+@media (max-width:640px) {
+    section.banner-top .banner-content h1 {
+        font-size: 22px;
+    }
+
+    section.sucess-bar .cta-btn {
+        text-align: center;
+    }
+
+    section.features-section ul.listing-feature li {
+        width: 100%;
+    }
+
+    section.banner-top {
+        background-size: cover;
+    }
+
+    footer .footer-descriptions h3 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    footer .footer-descriptions p {
+        font-size: 15px;
+    }
+
+    section.sucess-bar .cta-btn a {
+        font-size: 12px;
+    }
+
+    section.sucess-bar .content-descriptions.sucess-infobar h5 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    section.sucess-bar .content-descriptions.sucess-infobar p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    ul.process-listing li {
+        font-size: 14px;
+    }
+
+    .content-descriptions h4 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .content-descriptions p {
+        text-align: center;
+    }
+}
